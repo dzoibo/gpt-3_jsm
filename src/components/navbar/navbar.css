@@ -28,6 +28,7 @@
 .gpt3__navbar-sign-menu_container-links-sign button{
     padding: 8px !important;
     width: 100px;
+    font-size: 16px;
 }
 .gpt3__navbar-menu{
     margin-left: 1rem;

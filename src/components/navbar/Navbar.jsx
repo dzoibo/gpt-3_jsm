@@ -29,20 +29,20 @@ const Navbar = () => {
             <button type='button'>Sign up</button>
           </div>
       </div>
-      <div className='gpt3__navbar-menu sm:pr-8'>
+      <div className='gpt3__navbar-menu sm:pr-8' >
         {toggleMenu
           ? <RiCloseLine color="#fff" size={27} onClick={()=>setToggleMenu(false)} />
           : <RiMenu3Line color="#fff" size={27} onClick={()=>setToggleMenu(true)} />
         }
 
         {toggleMenu &&
-          <div className='bg-[#031B34] leading-9 absolute right-8 top-16 md:top-12 scale-up-center p-4'>
+          <div onClick={()=>setToggleMenu(false)} className='bg-[#031B34] leading-9 absolute right-8 top-16 md:top-12 scale-up-center p-4'>
             <div className=" text-right text-white  w-28">
               <Menu/>
             </div>
             <div className='gpt3__navbar-sign-menu_container-links-sign flex-col items-end'>
               <p className='flex justify-end items-center text-white font-bold'>Sign in</p>
-              <button type='button'>Sign up</button>
+              <button type='button' className='font-bold'>Sign up</button>
             </div>
           </div>
         }

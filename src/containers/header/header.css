@@ -1,0 +1,8 @@
+.gradient__text{
+    background:--gradient-text;
+    background-clip: text;
+}
+
+*{
+    font-family: --font-manrope;
+}
