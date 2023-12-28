@@ -14,38 +14,37 @@ const Menu=()=>(
 )
 
 const Navbar = () => {
-  const [toggleMenu,setToggleMenu] =useState(false);
+  const [toggleMenu,setToggleMenu] = useState(false);
   return (
-    <div className="gpt3__navbar flex align-center justify-between">
-      <div className="gpt__navbar-links grow justify-start aligns-center">
-          <div className='gpt3__navbar-links_logo mr-8'>
-              <img src={logo} alt="logo" className="h-4 w-[62.56px] " />
+    <div className=" flex  items-center justify-between ">
+      <div className="gpt__navbar-links lg:pr-8 pr-0 pl-8  w-full flex justify-between items-center py-4">
+          <div className='mr-8'>
+              <img src={logo} alt="logo" className=" h-4 w-[62.56px] " />
           </div>
-          <div className='gpt3_navbar-links_container flex  '>
+          <div className='gpt3__navbar-links_container flex '>
             <Menu/>
           </div>
-          <div className='gpt3__navbar-sign'>
+          <div className=' gpt3__navbar-sign flex'>
             <p className='flex justify-end items-center'>Sign in</p>
             <button type='button'>Sign up</button>
           </div>
       </div>
-      <div className='gpt3_navbar-menu'>
+      <div className='gpt3__navbar-menu sm:pr-8'>
         {toggleMenu
           ? <RiCloseLine color="#fff" size={27} onClick={()=>setToggleMenu(false)} />
-          : <RiMenu3Line color="#fff" size={27} onClick={()=>setToggleMenu(false)} />
+          : <RiMenu3Line color="#fff" size={27} onClick={()=>setToggleMenu(true)} />
         }
 
         {toggleMenu &&
-          <div className='gtp3__navbar-menu_container scale-up-center'>
-            <div className="gpt3__navbar-menu_container_links">
+          <div className='bg-[#031B34] leading-9 absolute right-8 top-16 md:top-12 scale-up-center p-4'>
+            <div className=" text-right text-white  w-28">
               <Menu/>
             </div>
-            <div className='gpt3__navbar-sign-menu_container-links-sign'>
-              <p className='flex justify-end items-center'>Sign in</p>
+            <div className='gpt3__navbar-sign-menu_container-links-sign flex-col items-end'>
+              <p className='flex justify-end items-center text-white font-bold'>Sign in</p>
               <button type='button'>Sign up</button>
             </div>
           </div>
-
         }
       </div>
     </div>

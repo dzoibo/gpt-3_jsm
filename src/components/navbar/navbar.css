@@ -10,7 +10,7 @@
     margin: 0 1rem;
     cursor: pointer;
 }
-.gpt3__navbar-sign button,
+.gpt3__navbar-sign button, .gpt3__navbar-sign-menu_container-links-sign button,
 .gpt3__navbar-menu_container button{ 
     font-family:var(--font-family);
     background: #ff4820;
@@ -25,12 +25,16 @@
     outline:none;
     cursor: pointer;
 }
-.gpt3_navbar-menu{
+.gpt3__navbar-sign-menu_container-links-sign button{
+    padding: 8px !important;
+    width: 100px;
+}
+.gpt3__navbar-menu{
     margin-left: 1rem;
     display: none;
     position: relative;
 }
-.gpt3_navbar-menu svg{
+.gpt3__navbar-menu svg{
     cursor: pointer;
 }
 .gpt3__navbar-menu_container{
@@ -49,6 +53,9 @@
     border-radius: 5px;
     box-shadow: 0 0 5 rgba(0, 0, 0, 0.2);
 }
+.gpt3__navbar-sign-menu_container-links-sign{
+    display: none;
+}
 
 .gpt3__navbar-manu_container p{
     margin: 1rem 0;   
@@ -59,15 +66,16 @@
 }
 
 @media screen and (max-width: 1050px){
-   .gpt__navbar-links_container{
+   .gpt3__navbar-links_container{
         display: none;
    } 
    .gpt3__navbar-menu{
     display: flex;
    }
+   
 }
 @media screen and (max-width: 700px){
-    .gpt__navbar-links_container{
+    .gpt3__navbar-links_container{
         display: none;
     } 
     .gpt3__navbar-menu{
@@ -75,7 +83,10 @@
     }
 }
 @media screen and (max-width: 700px){
-    .gpt__navbar-links_container{
+    .gpt3__navbar-sign-menu_container-links-sign{
+        display: flex;
+       }
+    .gpt3__navbar-links_container{
         display: none;
     } 
     .gpt3__navbar-menu{
@@ -85,9 +96,9 @@
         display: none;
     }
     .gpt3__navbar-menu_container{
-        top: 20px;
+        top: 40px;
     }
     .gpt3__navbar-menu_container-links-sign{
-        display: bloc;
+        display: block;
     }
 }
