@@ -6,8 +6,8 @@ import people from '../../assets/people.png'
 
 const Footer = () => {
   return (
-    <div className='items-center lg:flex-row lg:items-start flex-col flex lg:pr-8 px-8' id='home'>
-      <div className='mb-8 sm:text-xl text-l md:my-[120px] text-left gpt3__header-content'>
+    <div className='items-center lg:flex-row lg:items-start flex-col flex lg:pr-8 px-8  mb-[80px] md:mb-[100px]' id='home'>
+      <div className='mb-8 sm:text-xl text-l mt-[120px] text-left gpt3__header-content'>
         <h1 className="mb-[33px] gradient__text sm:text-[62px] text-4xl pr-4 sm:leading-[75px] font-extrabold ">Let's Build Something
           amazing with GPT-3
           OpenAI
@@ -29,7 +29,7 @@ const Footer = () => {
         </div>
       </div>
       <div className=' gpt3__header-image'>
-        <img src={ai} alt="logo" className="sm:min-w-[467px] sm:h-[500px] w-[420px] h-[340px] " />
+        <img src={ai} alt="logo" className="sm:min-w-[467px] sm:h-[500px] w-[420px] h-[340px] mb-5" />
       </div>
      
     </div>
