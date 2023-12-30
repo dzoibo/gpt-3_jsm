@@ -1,6 +1,6 @@
 import './App.css';
 import React from 'react';
-import {Footer , Blog , Possibility, Feature , whatGPT3, Header, WhatGP3} from './containers'
+import {Footer , Blog , Possibility, Feature , Header, WhatGP3} from './containers'
 import {CTA, Brand, Navbar} from './components';
 import './App.css'
 

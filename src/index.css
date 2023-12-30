@@ -15,6 +15,10 @@
   --color-text: #81AFDD;
   --color-subtext: #FF8A71;
 }
+
+*{
+    font-family: --font-manrope;
+}
 /*
 .gpt3__whatgpt3 {
     display: flex;
