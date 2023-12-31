@@ -3,8 +3,8 @@ import './features.css'
 
 const Features = () => {
   return (
-    <div className='text-left relative justify-between flex gap-[100px] my-[100px] mx-8 sm:flex-nowrap flex-wrap'>
-      <div className='blur-radius'>
+    <div className='text-left relative flex gap-[100px] my-[100px] mx-8 sm:flex-nowrap sm:justify-between justify-center flex-wrap'>
+      <div className='blur-radius  -z-10'>
 
       </div>
       <div className='max-w-[420px] '>
@@ -12,38 +12,47 @@ const Features = () => {
         <div className='text-[#FF8A71] '>Request Early Access to Get Started</div>
       </div>
 
-      <div className='text-white flex flex-col gap-10 leading-6 '>
-        <div>
-          <div className='gpt3__item-bar'></div>
-          <div className='text-lg'>Improving end distrusts instantly </div>
+      <div className='gpt3__features-item flex flex-col grow gap-10 '>
+        <div className='flex gap-12 sm:gap-[100px] '>
+          <div className='text-lg gpt3__features-item_main'>
+            <div className='gpt3__item-bar'></div>
+            <div>Improving end distrusts instantly </div>
+          </div>
+          <div className='gpt3__features-item_detail'>
+            From they fine john he give of rich he. They age and draw mrs like. Improving end distrusts may instantly was household applauded.
+          </div>
         </div>
-        <div>
-          <div className='gpt3__item-bar'></div>
-          <div className='text-lg'>Become the tended active </div>
-        </div>
-        <div>
-          <div className='gpt3__item-bar'></div>
-          <div className='text-lg'>Message or am nothing </div>
-        </div>
-        <div>
-          <div className='gpt3__item-bar'></div>
-          <div className='text-lg'>Really boy law county </div>
-        </div>
-      </div>
 
-      <div className='text-[#81AFDD] text-sm font-medium gap-10 text-left flex flex-col max-w-[330px] '>
-        <div>
-          From they fine john he give of rich he. They age and draw mrs like. Improving end distrusts may instantly was household applauded.
+        <div className='flex gap-12 sm:gap-[100px] '>
+          <div  className='text-lg gpt3__features-item_main'> 
+            <div className='gpt3__item-bar'></div>
+            <div className='text-lg'>Become the tended active </div>
+          </div>
+          <div className='text-lg gpt3__features-item_detail'>
+            Considered sympathize ten uncommonly occasional assistance sufficient not. Letter of on become he tended active enable to.
+          </div>
         </div>
-        <div>
-          Considered sympathize ten uncommonly occasional assistance sufficient not. Letter of on become he tended active enable to.
+
+        <div className='flex gap-12 sm:gap-[100px] '>
+          <div  className='text-lg gpt3__features-item_main'>
+            <div className='gpt3__item-bar'></div>
+            <div className='text-lg'>Message or am nothing </div>
+          </div>
+          <div  className='text-lg gpt3__features-item_detail'>
+            Led ask possible mistress relation elegance eat likewise debating. By message or am nothing amongst chiefly address.
+          </div>
         </div>
-        <div>
-          Led ask possible mistress relation elegance eat likewise debating. By message or am nothing amongst chiefly address.
+
+        <div className='flex gap-12 sm:gap-[100px] '>
+          <div className='text-lg gpt3__features-item_main'>
+            <div className='gpt3__item-bar'></div>
+            <div className='text-lg'>Really boy law county </div>
+          </div>
+          <div className='text-lg gpt3__features-item_detail'>
+            Really boy law county she unable her sister. Feet you off its like like six. Among sex are leave law built now. In built table in an rapid blush.
+          </div>
         </div>
-        <div>
-          Really boy law county she unable her sister. Feet you off its like like six. Among sex are leave law built now. In built table in an rapid blush.
-        </div>
+
       </div>
     </div>
   )
