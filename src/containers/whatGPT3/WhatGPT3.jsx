@@ -3,7 +3,7 @@ import './whatGPT3.css'
 
 const WhatGpt3 = () => {
   return (
-    <div className='lg:pr-8 py-10 mt-32 sm:mt-20 mx-8 px-8 bg-[#0F4279] '>
+    <div id='wgpt3' className='lg:pr-8 py-10 mt-32 sm:mt-20 mx-8 px-8 bg-[#0F4279] '>
       <div  className=' text-left flex justify-between flex-wrap gap-10 sm:flex-nowrap sm:gap-20 ' >
         <div>
           <div className='gpt3__item-bar'>
