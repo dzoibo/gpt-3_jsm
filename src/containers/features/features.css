@@ -1,0 +1,11 @@
+.blur-radius{
+    width: 777px;
+    height: 777px;
+    flex-shrink: 0;
+    border-radius: 777px;
+    background: #07325F;
+    filter: blur(282px);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}

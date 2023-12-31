@@ -37,6 +37,13 @@ a{
   -webkit-text-fill-color: transparent;
 }
 
+.gpt3__item-bar{
+  width: 38px;
+  height: 3px;
+  background: var(--gradient-text);
+  margin-bottom: 8px;
+}
+
 .section__padding{
   padding: 4rem 6rem ;
 }
