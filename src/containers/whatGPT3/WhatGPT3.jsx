@@ -18,7 +18,7 @@ const WhatGpt3 = () => {
       </div>
 
       <div className='flex sm:my-16 flex-wrap sm:flex-nowrap my-12 gap-5 justify-between items-center'>
-        <div className='gradient__text text-[34px] '>The possibilities are beyond your imagination</div>
+        <div className='gradient__text text-[34px] font-extrabold'>The possibilities are beyond your imagination</div>
         <div className="text-[#FF8A71] font-medium">Explore the Library</div>
       </div>
 
