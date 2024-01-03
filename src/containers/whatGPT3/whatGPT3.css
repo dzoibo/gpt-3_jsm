@@ -1,0 +1,10 @@
+.possibily-blur{
+    position: absolute;
+    border-radius: 632px;
+    width: 623px;
+    height: 558px;
+    bottom: -313px;
+    right: -227px;
+    background: #1B78DE;
+    filter: blur(100px);
+}

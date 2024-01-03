@@ -1,0 +1,26 @@
+
+@font-face {
+    font-family: 'gilRoy';
+    src: url('../../assets/gilroy/Gilroy-Light.ttf') format('ttf')
+}
+
+body {
+    font-family: 'NomDeLaPolice', sans-serif;
+}
+
+.text-giray{
+    font-family: 'gilRoy',sans-serif;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    list-style-type: none;
+}
+
+@media (max-width: 640px) {
+    ul{
+        gap: 16px;
+    }
+}

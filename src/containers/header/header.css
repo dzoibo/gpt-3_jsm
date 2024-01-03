@@ -1,1 +1,20 @@
+@keyframes float{
+    0%{
+       transform: translateY(0%) ;
+    }
+     50%{
+        transform: translateY(30px);
+     }
+     100%{
+        transform: translateY(0%);
+     }
+}
+.gpt3__header-image{
+    animation: 5s float infinite;
+    margin-bottom: 10px;
+}
 
+@keyframes display{
+    
+
+}

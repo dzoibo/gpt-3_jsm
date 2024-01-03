@@ -1,12 +1,20 @@
 import './App.css';
-import React from 'react';
-import {Footer , Blog , Possibility, Features , Header, WhatGP3} from './containers'
+import React , { useEffect } from 'react';
+import {Footer ,Features, Blog , Possibility , Header, WhatGP3} from './containers'
 import {CTA, Brand, Navbar} from './components';
-import './App.css'
+import "aos/dist/aos.css";
+import AOS from "aos";
 
 function App() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1300,
+      ease: "ease-out",
+    });
+    AOS.refresh();
+  }, []);
   return (
-    <div>
+    <div >
       <div className='gradient__bg'>
         <Navbar/>
         <Header/>
