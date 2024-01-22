@@ -3,7 +3,7 @@ import './features.css'
 
 const Features = () => {
   return (
-    <div id='features' className='text-left relative flex gap-[100px] my-[100px] mx-8 sm:flex-nowrap sm:justify-between justify-center flex-wrap'>
+    <div id='features' data-aos="fade-up" className='text-left relative flex gap-[100px] my-[100px] mx-8 sm:flex-nowrap sm:justify-between justify-center flex-wrap'>
       <div className='blur-radius  -z-10'>
 
       </div>

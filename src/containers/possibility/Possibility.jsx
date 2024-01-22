@@ -5,7 +5,7 @@ import possibilityImage from '../../assets/possibility.png';
 
 const Possibility = () => {
   return (
-    <div id='possibility' className=' flex flex-wrap items-end justify-center sm:justify-between sm:flex-nowrap gap-3 mb-[50px] sm:mb-[100px] mx-8'>
+    <div id='possibility' data-aos="fade-up" className=' flex flex-wrap items-end justify-center sm:justify-between sm:flex-nowrap gap-3 mb-[50px] sm:mb-[100px] mx-8'>
       <div className='mb-5'>
         <img src={possibilityImage} className='max-h-[680px] min-w-[300px] ' alt="possibility" />
       </div>
