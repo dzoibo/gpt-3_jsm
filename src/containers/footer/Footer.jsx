@@ -6,14 +6,14 @@ const Footer = () => {
   
   const currentYear=new Date().getFullYear();
   return (
-    <div id='footer' className='flex flex-col items-center text-white mx-8'>
+    <div id='footer' className='flex flex-col items-center text-white relative mx-8'>
       <h1 data-aos="fade-up" className="mt-20  mb-16 gradient__text sm:text-[62px] text-4xl pr-4 sm:mt-[175px] sm:leading-[75px] font-extrabold max-w-[830px] "> Do you want to step in to the future before others
       </h1>
       <button data-aos="fade-up" className='md:mb-[180px] mb-[100px] h-16 w-[218px] text-giray outline-none border-white border'>
           Request Early Access
       </button>
 
-      <div className='text-center sm:text-left flex text-sm text-giray md:gap-[162px] gap-20 flex-col items-center sm:flex-row justify-center'>
+      <div className='text-center sm:text-left flex text-sm text-giray gap-20 flex-col items-center sm:flex-row justify-center'>
         <div data-aos="fade-up" className='flex flex-col sm:items-start items-center' >
           <img className='h-12 w-[118px] mb-4' src={logo} alt="logo" />
           <div>

@@ -36,7 +36,7 @@ const Navbar = () => {
         }
 
         {toggleMenu &&
-          <div onClick={()=>setToggleMenu(false)} className='bg-[#031B34] leading-9 absolute right-8 top-16 md:top-12 scale-up-center p-4'>
+          <div onClick={()=>setToggleMenu(false)} className='bg-[#031B34] z-50 leading-9 absolute right-8 top-16 md:top-12 scale-up-center p-4'>
             <div className=" text-right text-white  w-28">
               <Menu/>
             </div>

@@ -8,7 +8,7 @@ import AOS from "aos";
 function App() {
   useEffect(() => {
     AOS.init({
-      duration: 1100,
+      duration: 800,
       ease: "ease-out",
       anchorPlacement: "bottom-bottom"
     });

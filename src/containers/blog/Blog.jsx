@@ -5,7 +5,7 @@ import { Article } from '../../components';
 const Blog = () => {
   return (
     <div className='mx-8 ' id='blog' >
-      <h1 data-aos="fade-up" className='max-w-[700px] my-[90px] py-5 gradient__text font-extrabold text-5xl sm:text-6xl '>A lot is happening, We are blogging about it.</h1>
+      <h1 data-aos="fade-up" className='max-w-[700px] my-[90px] py-5 gradient__text font-extrabold text-5xl sm:text-6xl' >A lot is happening, We are blogging about it.</h1>
       <div  className='flex flex-wrap md:flex-nowrap min-h-[690px] h-auto w-full gap-10'>
 
         <div data-aos="fade-up" className=' h-auto w-full md:w-2/5 relative text-white flex flex-col'>
@@ -35,11 +35,11 @@ const Blog = () => {
           </div>
 
           <div className='flex-wrap sm:flex-nowrap flex justify-between gap-10'>
-            <div  data-aos="fade-up" className='grow relative text-white flex flex-col'>
+            <div  data-aos="fade-up" data-aos-anchor-placement="top-bottom" className='grow relative text-white flex flex-col'>
               <Article image={blog4} date={'sept 26, 2021'} contain={'GPT-3 and Open  AI is the future. Let us explore how it is?'}></Article>
             </div>
 
-            <div data-aos="fade-up" className='grow relative text-white flex flex-col'>
+            <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" className='grow relative text-white flex flex-col'>
               <Article image={blog5} date={'sept 26, 2021'} contain={'GPT-3 and Open  AI is the future. Let us explore how it is?'}></Article>
             </div>
           </div>
